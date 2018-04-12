@@ -1,0 +1,21 @@
+{
+  "name": "carono/megaindex-api",
+  "description": "",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksandr Kasyanov",
+      "email": "info@carono.ru",
+      "homepage": "http://carono.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "carono\\megaindex\\": "src"
+    }
+  },
+  "require": {
+    "carono/rest-client": "^0.2.0"
+  }
+}
